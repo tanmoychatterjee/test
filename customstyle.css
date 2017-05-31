@@ -39,5 +39,5 @@ node.Operation {
 }
 
 relationship.DIVCOLLAB {
-  caption: '<type> | {percollab}';
+  caption: '{type} \a {percollab} \a {sumhours}';
 }
