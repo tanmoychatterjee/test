@@ -38,58 +38,6 @@ node.Operation {
   caption: '{description}';
 }
 
-node.Disease {
-  color: #8E4F00;
-  border-color: #FFFFFF;
-  text-color-internal: #FFFFFF;
-  caption: '{name}';
-}
-
-node.Compound {
-  color: #FF2600;
-  border-color: #FFFFFF;
-  text-color-internal: #FFFFFF;
-  caption: '{name}';
-}
-
-node.CellularComponent {
-  color: #FF9300;
-  border-color: #FFFFFF;
-  text-color-internal: #000000;
-  caption: '{name}';
-}
-
-node.BiologicalProcess {
-  color: #FF9300;
-  border-color: #FFFFFF;
-  text-color-internal: #000000;
-  caption: '{name}';
-}
-
-node.SideEffect {
-  color: #FFFB00;
-  border-color: #FFFFFF;
-  text-color-internal: #000000;
-  caption: '{name}';
-}
-
-node.Symptom {
-  color: #A5ABB6;
-  border-color: #FFFFFF;
-  text-color-internal: #FFFFFF;
-  caption: '{name}';
-}
-
-node.PharmacologicClass {
-  color: #FF85FF;
-  border-color: #FFFFFF;
-  text-color-internal: #FFFFFF;
-  caption: '{name}';
-}
-
-node.MolecularFunction {
-  color: #FF9300;
-  border-color: #FFFFFF;
-  text-color-internal: #000000;
-  caption: '{name}';
+relationship.DIVCOLLAB {
+  caption: '<type> | {percollab}';
 }
