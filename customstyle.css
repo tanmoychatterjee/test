@@ -28,7 +28,7 @@ node.Employee {
   color: #FF9300;
   border-color: #FFFFFF;
   text-color-internal: #000000;
-  caption: '{id}';
+  caption: '{id} - {sex}';
 }
 
 node.Operation {
@@ -39,5 +39,5 @@ node.Operation {
 }
 
 relationship.DIVCOLLAB {
-  caption: '{type} \a {percollab} \a {sumhours}';
+  caption: 'DIVCOLLAB - {percollab} | {sumhours} | {operid}';
 }
