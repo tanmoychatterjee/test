@@ -1,6 +1,6 @@
 node {
   diameter: 50px;
-  color: red;
+  color: #A5ABB6;
   border-color: #9AA1AC;
   border-width: 1px;
   text-color-internal: #FFFFFF;
@@ -17,25 +17,25 @@ relationship {
   caption: '<type>';
 }
 
-node.Gene {
+node.Division {
   color: #0096FF;
   border-color: #FFFFFF;
   text-color-internal: #FFFFFF;
-  caption: '{name}';
+  caption: '{id}';
 }
 
-node.Pathway {
+node.Employee {
   color: #FF9300;
   border-color: #FFFFFF;
   text-color-internal: #000000;
-  caption: '{name}';
+  caption: '{id}';
 }
 
-node.Anatomy {
+node.Operation {
   color: #008F00;
   border-color: #FFFFFF;
   text-color-internal: #FFFFFF;
-  caption: '{name}';
+  caption: '{description}';
 }
 
 node.Disease {
